@@ -62,7 +62,7 @@ namespace motorcontrol {
     }
 
 
-    //% block="set left motor to $leftSpeed and right to $rightSpeed"
+    //% block="set left speed to $leftSpeed and right speed to $rightSpeed"
     //% leftSpeed.min=0 leftSpeed.max=1023 leftSpeed.defl=200
     //% rightSpeed.min=0 rightSpeed.max=1023 rightSpeed.defl=200
     export function setMotorSpeeds(leftSpeed: number, rightSpeed: number) {
