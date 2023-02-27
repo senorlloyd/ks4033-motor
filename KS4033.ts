@@ -70,7 +70,7 @@ namespace motorcontrol {
         updateMotion()
     }
 
-    //% block="set $motor to $speed"
+    //% block="set speed $motor to $speed"
     //% speed.min=0 speed.max=1023 speed.defl=200
     export function setMotorSpeed(motor: MBMotor, speed: number) {
         motorSpeeds[motor] = speed
